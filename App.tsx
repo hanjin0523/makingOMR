@@ -12,12 +12,13 @@ import {
   View,
 } from 'react-native';
 import Camera from './android/app/src/component/Camera';
+import CameraScreen from './android/app/src/component/Camera';
 
 function App(): React.JSX.Element {
   return (
     <View style={styles.container}>
       <Text>Hello World카메라</Text>
-      <Camera />
+      <CameraScreen/>
     </View>
   );
 }
